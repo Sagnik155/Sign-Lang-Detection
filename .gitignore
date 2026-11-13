@@ -1,0 +1,12 @@
+# Virtual environment & Python cache
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Large raw Kaggle dataset (too big for GitHub)
+data/
+
+# Large cached numpy dataset & MediaPipe task bundle
+artifacts/processed_data.npz
+artifacts/hand_landmarker.task
